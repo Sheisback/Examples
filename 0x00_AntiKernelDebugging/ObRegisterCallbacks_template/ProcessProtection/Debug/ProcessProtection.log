@@ -1,0 +1,22 @@
+﻿  Building 'ProcessProtection' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\ProcessProtection.inf
+  Stamping [Version] section with DriverVer=03/04/2020,21.25.0.645
+  main.c
+  ProcessProtection.vcxproj -> C:\Users\hunho\source\repos\ProcessProtection\Debug\ProcessProtection.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\hunho\source\repos\ProcessProtection\Debug\ProcessProtection.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\hunho\source\repos\ProcessProtection\Debug\ProcessProtection\processprotection.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\hunho\source\repos\ProcessProtection\Debug\ProcessProtection\processprotection.cat
+  
