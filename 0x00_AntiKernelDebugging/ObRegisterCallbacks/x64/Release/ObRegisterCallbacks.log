@@ -1,0 +1,37 @@
+﻿  Building 'ObRegisterCallbacks' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: 스펙터 완화가 사용하도록 설정되어 있지만 스펙터 완화된 라이브러리를 찾을 수 없습니다. Visual Studio 워크로드에 스펙터 완화된 라이브러리가 포함되어 있는지 확인하세요. 자세한 내용은 https://aka.ms/Ofhn4c를 참조하세요.
+  Stamping x64\Release\ObRegisterCallbacks.inf
+  Stamping [Version] section with DriverVer=03/06/2020,12.38.54.860
+  main.c
+e:\shh0ya\processprotection\obregistercallbacks\callbacks.h(19): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'DWORD64'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\callbacks.h(19): warning C4024: 'strcpy_s': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\callbacks.h(56): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'DWORD64'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\callbacks.h(56): warning C4024: 'strcpy_s': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\callbacks.h(59): warning C4047: '=': 'PLIST_ENTRY'의 간접 참조 수준이 'DWORD64'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(26): warning C4133: '=': 'PCHAR'과(와) 'PEPROCESS' 사이의 형식이 호환되지 않습니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(29): warning C4047: '함수': 'ULONG'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(29): warning C4024: 'ObOpenObjectByPointer': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(29): warning C4047: '함수': 'ACCESS_MASK'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(29): warning C4024: 'ObOpenObjectByPointer': 형식 및 실제 매개 변수 4의 형식이 서로 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(20): warning C4152: 비표준 확장입니다. 식에서 함수/데이터 포인터 변환이 있습니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(25): warning C4047: '초기화 중': 'PLIST_ENTRY'의 간접 참조 수준이 'PVOID *'과(와) 다릅니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(14): warning C4189: 'ProcName': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+e:\shh0ya\processprotection\obregistercallbacks\main.c(68): warning C4047: '=': 'PLIST_ENTRY'의 간접 참조 수준이 'PVOID *'과(와) 다릅니다.
+  ObRegisterCallbacks.vcxproj -> E:\shh0ya\ProcessProtection\x64\Release\ObRegisterCallbacks.sys
+  Done Adding Additional Store
+  Successfully signed: E:\shh0ya\ProcessProtection\x64\Release\ObRegisterCallbacks.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  E:\shh0ya\ProcessProtection\x64\Release\ObRegisterCallbacks\obregistercallbacks.cat
+  Done Adding Additional Store
+  Successfully signed: E:\shh0ya\ProcessProtection\x64\Release\ObRegisterCallbacks\obregistercallbacks.cat
+  
