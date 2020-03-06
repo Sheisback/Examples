@@ -1,0 +1,22 @@
+﻿  Building 'ImageNotifyRoutineExample' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: 스펙터 완화가 사용하도록 설정되어 있지만 스펙터 완화된 라이브러리를 찾을 수 없습니다. Visual Studio 워크로드에 스펙터 완화된 라이브러리가 포함되어 있는지 확인하세요. 자세한 내용은 https://aka.ms/Ofhn4c를 참조하세요.
+  Stamping x64\Release\ImageNotifyRoutineExample.inf
+  Stamping [Version] section with DriverVer=03/06/2020,17.47.43.682
+  ImageNotifyRoutineExample.vcxproj -> E:\shh0ya\ProcessProtection\x64\Release\ImageNotifyRoutineExample.sys
+  Done Adding Additional Store
+  Successfully signed: E:\shh0ya\ProcessProtection\x64\Release\ImageNotifyRoutineExample.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  E:\shh0ya\ProcessProtection\x64\Release\ImageNotifyRoutineExample\imagenotifyroutineexample.cat
+  Done Adding Additional Store
+  Successfully signed: E:\shh0ya\ProcessProtection\x64\Release\ImageNotifyRoutineExample\imagenotifyroutineexample.cat
+  
