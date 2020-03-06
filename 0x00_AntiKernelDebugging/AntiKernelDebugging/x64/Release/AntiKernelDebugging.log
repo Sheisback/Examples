@@ -1,0 +1,40 @@
+﻿  Building 'AntiKernelDebugging' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Release\AntiKernelDebugging.inf
+  Stamping [Version] section with DriverVer=03/07/2020,0.46.49.295
+  main.c
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(26,50): warning C4047:  '=': 'PLIST_ENTRY'의 간접 참조 수준이 'PVOID *'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(91,51): warning C4133:  '=': 'PCHAR'과(와) 'PEPROCESS' 사이의 형식이 호환되지 않습니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(94,42): warning C4047:  '함수': 'ULONG'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(94,42): warning C4024:  'ObOpenObjectByPointer': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(94,54): warning C4047:  '함수': 'ACCESS_MASK'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(94,54): warning C4024:  'ObOpenObjectByPointer': 형식 및 실제 매개 변수 4의 형식이 서로 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(85,1): warning C4152:  비표준 확장입니다. 식에서 함수/데이터 포인터 변환이 있습니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(90,1): warning C4047:  '초기화 중': 'PLIST_ENTRY'의 간접 참조 수준이 'PVOID *'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\offset.h(79,6): warning C4189:  'ProcName': 지역 변수가 초기화되었으나 참조되지 않았습니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(26,53): warning C4047:  '함수': 'PEPROCESS *'의 간접 참조 수준이 'PEPROCESS **'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(26,53): warning C4024:  'PsLookupProcessByProcessId': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(28,81): warning C4047:  '함수': 'const char *'의 간접 참조 수준이 'PVOID *'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(28,81): warning C4024:  'strcpy_s': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(16,21): warning C4100:  'FullImageName': 참조되지 않은 정식 매개 변수입니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(60,95): warning C4047:  '함수': 'const char *'의 간접 참조 수준이 'DWORD64'과(와) 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(60,95): warning C4024:  'strcpy_s': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(80,77): warning C4100:  'pOperationInformation': 참조되지 않은 정식 매개 변수입니다.
+D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(80,77): warning C4100: D:\Shh0ya\ProcessProtection\AntiKernelDebugging\callbacks.h(73) : warning C4716: 'PreCallback': 값을 반환해야 합니다.
+  AntiKernelDebugging.vcxproj -> D:\Shh0ya\ProcessProtection\x64\Release\AntiKernelDebugging.sys
+  Done Adding Additional Store
+  Successfully signed: D:\Shh0ya\ProcessProtection\x64\Release\AntiKernelDebugging.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\Shh0ya\ProcessProtection\x64\Release\AntiKernelDebugging\antikerneldebugging.cat
+  Done Adding Additional Store
+  Successfully signed: D:\Shh0ya\ProcessProtection\x64\Release\AntiKernelDebugging\antikerneldebugging.cat
+  
